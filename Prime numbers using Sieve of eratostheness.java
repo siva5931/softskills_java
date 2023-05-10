@@ -10,13 +10,13 @@ public class Solution {
     for(int j=2;j<=n;j++)
     {
     count=0;
-    for(i=1;i<=j;i++)
+    for(i=1;i*i<=j;i++)
     {
        if(j%i==0)
        {
             count++;        
        }
-    }      if(count ==2){
+    }      if(count ==1){
            System.out.printf(j+" ");}     
     }
     }
